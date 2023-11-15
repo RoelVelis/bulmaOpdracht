@@ -1,0 +1,58 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-body {
+    background-image: url(../images/Gems-background.avif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero.is-link {
+    background-color: #FFF;
+}
+
+.hero.is-link .title,
+.hero.is-link .subtitle {
+    color: rgb(241, 22, 95);
+    text-shadow: #000 5px 0 15px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+.text-holder {
+    padding: 1vw 1vh 1vw 1vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-text-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    align-items: stretch;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.column {
+    text-align: center;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.column h2 {
+    font-size: 2rem;
+}
